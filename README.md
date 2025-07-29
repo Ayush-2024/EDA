@@ -1,13 +1,8 @@
-# 📊 Exploratory Data Analysis (EDA) Project
+# 📊 Exploratory Data Analysis (EDA) 
 
 Welcome to my Exploratory Data Analysis project! This repository contains a comprehensive EDA process performed using Python, focusing on understanding the structure, patterns, and relationships within the dataset.
 
----
 
-## 📁 Project Structure
-
-
----
 
 ## 🧠 Objective
 
@@ -34,52 +29,21 @@ The goal of this EDA is to:
 - Analyzed the **mean** of numerical columns to understand central tendencies
 
 ### 4. Mean Analysis
-- Calculated the mean for all numeric features:
-  
-```python
-df.mean(numeric_only=True)
+- Calculated the mean for all numeric features
 
-Why Mean Analysis?
+### 5. Data Visualization
+- Used matplotlib and seaborn for visual representation:
 
-Understand the average behavior of each feature
+- Histograms for distribution
+- Boxplots for outlier detection
+- Correlation heatmaps
+- Pairplots to examine feature relationships
 
-Spot outliers or unusual distributions
+### 6. Tools & Libraries Used
 
-Prepare data for normalization or feature engineering
-
-## Data Visualization
-Used matplotlib and seaborn for visual representation:
-
-Histograms for distribution
-
-Boxplots for outlier detection
-
-Correlation heatmaps
-
-Pairplots to examine feature relationships
-
-6. Correlation Analysis
-Analyzed correlation between features using .corr()
-
-Visualized relationships with a heatmap
-
-📈 Tools & Libraries Used
-Python
-
-Pandas
-
-NumPy
-
-Matplotlib
-
-Seaborn
-
-Jupyter Notebook
-
-💡 Insights
-Mean values revealed skewed distributions in certain features
-
-Visuals helped in understanding patterns and detecting anomalies
-
-Data is now better understood and ready for next steps like feature engineering or model training
-
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
